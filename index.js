@@ -40,7 +40,7 @@ function init() {
     ])
 
     .then((answers) => {
-      console.log(answers);
+      console.log('Test 1', answers);
       makeLogo(answers);
     });
 }
