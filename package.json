@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "node": "^19.8.1"
+  },
+  "name": "logo_generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
