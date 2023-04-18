@@ -1,5 +1,7 @@
 # SVG Logo Generator
 
+  Assignment is incomplete. A walkthrough video will be submitted alongside a regrade request. 
+
   ## Description
   The SVG Logo generator allows users to create a logo for their project (outputted as a .svg file) through answering a few simple prompts in the command line. This project is a command line application using inquirer to provide promtps. One all have been answered, the application generates a logo.svg file that the user can then user to their heart's desire. 
   
