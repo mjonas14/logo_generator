@@ -9,8 +9,28 @@ const questions = [
   "What colour do you want the shape to be?",
 ];
 
+function writeToFile(fileName, data) {
+  const content = generateMarkdown(data);
+  fs.writeFile(fileName, content, (err) => {
+    if (err) {
+      return console.log(err);
+    }
+
+    console.log("Success!");
+  });
+};
+
 function makeLogo(data) {
   const logo = generateLogo(data);
+
+  fs.writeFile('logo.svg', logo, (err) => {
+    if (err) {
+      return console.log(err);
+    }
+
+    console.log("Generated logo.svg");
+  });
+
 };
 
 function init() {
