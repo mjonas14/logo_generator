@@ -1,5 +1,6 @@
 # SVG Logo Generator
 
+ Walk-through video: https://drive.google.com/file/d/1ndgPJF7MfdZiGjPGPYYmVEj4OgmwF28F/view
  
 
   ## Description
